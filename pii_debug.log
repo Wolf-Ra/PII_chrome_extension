@@ -1,0 +1,1338 @@
+2026-04-11 12:47:07  ======================================================================
+2026-04-11 12:47:07  _run_llm called  |  tokens=65  |  purpose='Online document management and editing platform'
+2026-04-11 12:47:08  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 12:47:08  ======================================================================
+2026-04-11 12:47:08  Calling LLM for page 1 (412 chars)...
+2026-04-11 12:47:09  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "angelaamitchell95@gmail.com",
+      "tag": "EMAIL",
+      "reason": "Email address is sensitive and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "763-683-6758",
+      "tag": "PHONE",
+      "reason": "Phone number is sensitive and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "132 270th St, Rogers, Minnesota",
+      "t
+2026-04-11 12:47:09  
+2026-04-11 12:47:09  --- Page 1: 4 flagged, 2 skipped ---
+2026-04-11 12:47:09    [FLAGGED]  'angelaamitchell95@gmail.com' (EMAIL) → Email address is sensitive and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:47:09    [FLAGGED]  '763-683-6758' (PHONE) → Phone number is sensitive and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:47:09    [FLAGGED]  '132 270th St, Rogers, Minnesota' (ADDRESS) → Physical address is sensitive and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:47:09    [FLAGGED]  'Angela Mitchell' (PERSON) → Full name is sensitive and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:47:09    [SKIPPED]  'am applying for the position of Identity Management Specialist' → This sentence looks sensitive due to the mention of identity management, but it is necessary for the stated purpose of the platform.
+2026-04-11 12:47:09    [SKIPPED]  'have completed my high school education and am religious' → This sentence looks sensitive due to the mention of education and religion, but it is necessary for the stated purpose of the platform.
+2026-04-11 12:47:09    [MATCHING]  Looking for 'angelaamitchell95@gmail.com' in full_text of length 412
+2026-04-11 12:47:09    [MATCHES]  Found 1 matches for 'angelaamitchell95@gmail.com'
+2026-04-11 12:47:09    [REDACTION READY]  'angelaamitchell95@gmail.com' (EMAIL) --> Ready for redaction
+2026-04-11 12:47:09    [MATCHING]  Looking for '763-683-6758' in full_text of length 412
+2026-04-11 12:47:09    [MATCHES]  Found 1 matches for '763-683-6758'
+2026-04-11 12:47:09    [REDACTION READY]  '763-683-6758' (PHONE) --> Ready for redaction
+2026-04-11 12:47:09    [MATCHING]  Looking for '132 270th St, Rogers, Minnesota' in full_text of length 412
+2026-04-11 12:47:09    [MATCHES]  Found 1 matches for '132 270th St, Rogers, Minnesota'
+2026-04-11 12:47:09    [REDACTION READY]  '132 270th St, Rogers, Minnesota' (ADDRESS) --> Ready for redaction
+2026-04-11 12:47:09    [MATCHING]  Looking for 'Angela Mitchell' in full_text of length 412
+2026-04-11 12:47:09    [MATCHES]  Found 1 matches for 'Angela Mitchell'
+2026-04-11 12:47:09    [REDACTION READY]  'Angela Mitchell' (PERSON) --> Ready for redaction
+2026-04-11 12:51:30  ======================================================================
+2026-04-11 12:51:30  _run_llm called  |  tokens=124  |  purpose='Online document management and editing platform'
+2026-04-11 12:51:31  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 12:51:31  ======================================================================
+2026-04-11 12:51:31  Calling LLM for page 1 (919 chars)...
+2026-04-11 12:51:32  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "Customer ID: 721493685",
+      "tag": "ACCOUNT_NUMBER",
+      "reason": "This is sensitive information and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "Phone Number: 907-658-4593",
+      "tag": "PHONE",
+      "reason": "This is sensitive information and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "Router Model: XYZ
+2026-04-11 12:51:32  
+2026-04-11 12:51:32  --- Page 1: 7 flagged, 2 skipped ---
+2026-04-11 12:51:32    [FLAGGED]  'Customer ID: 721493685' (ACCOUNT_NUMBER) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [FLAGGED]  'Phone Number: 907-658-4593' (PHONE) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [FLAGGED]  'Router Model: XYZ-1234' (ORG) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [FLAGGED]  'Modem Model: ABC—5678' (ORG) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [FLAGGED]  'Installation Date: 2024-08-30T19:22:48' (DOB) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [FLAGGED]  '2024-08-30T19:22:48' (DOB) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [FLAGGED]  'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system' (CORPORATE_CONFIDENTIAL) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [SKIPPED]  'Field Technician' → This looks like a job title but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [SKIPPED]  '2024-08-30T19:22:48' → This is a timestamp and necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:51:32    [MATCHING]  Looking for 'Customer ID: 721493685' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 1 matches for 'Customer ID: 721493685'
+2026-04-11 12:51:32    [REDACTION READY]  'Customer ID: 721493685' (ACCOUNT_NUMBER) --> Ready for redaction
+2026-04-11 12:51:32    [MATCHING]  Looking for 'Phone Number: 907-658-4593' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 1 matches for 'Phone Number: 907-658-4593'
+2026-04-11 12:51:32    [REDACTION READY]  'Phone Number: 907-658-4593' (PHONE) --> Ready for redaction
+2026-04-11 12:51:32    [MATCHING]  Looking for 'Router Model: XYZ-1234' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 1 matches for 'Router Model: XYZ-1234'
+2026-04-11 12:51:32    [REDACTION READY]  'Router Model: XYZ-1234' (ORG) --> Ready for redaction
+2026-04-11 12:51:32    [MATCHING]  Looking for 'Modem Model: ABC—5678' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 1 matches for 'Modem Model: ABC—5678'
+2026-04-11 12:51:32    [REDACTION READY]  'Modem Model: ABC—5678' (ORG) --> Ready for redaction
+2026-04-11 12:51:32    [MATCHING]  Looking for 'Installation Date: 2024-08-30T19:22:48' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 1 matches for 'Installation Date: 2024-08-30T19:22:48'
+2026-04-11 12:51:32    [REDACTION READY]  'Installation Date: 2024-08-30T19:22:48' (DOB) --> Ready for redaction
+2026-04-11 12:51:32    [MATCHING]  Looking for '2024-08-30T19:22:48' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 2 matches for '2024-08-30T19:22:48'
+2026-04-11 12:51:32    [REDACTION READY]  '2024-08-30T19:22:48' (DOB) --> Ready for redaction
+2026-04-11 12:51:32    [REDACTION READY]  '2024-08-30T19:22:48' (DOB) --> Ready for redaction
+2026-04-11 12:51:32    [MATCHING]  Looking for 'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system' in full_text of length 919
+2026-04-11 12:51:32    [MATCHES]  Found 1 matches for 'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system'
+2026-04-11 12:51:32    [REDACTION READY]  'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 12:53:38  ======================================================================
+2026-04-11 12:53:38  _run_llm called  |  tokens=124  |  purpose='Online document management and editing platform'
+2026-04-11 12:53:38  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 12:53:38  ======================================================================
+2026-04-11 12:53:38  Calling LLM for page 1 (919 chars)...
+2026-04-11 12:53:40  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "Customer ID: 721493685",
+      "tag": "ACCOUNT_NUMBER",
+      "reason": "This is sensitive information and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "Phone Number: 907-658-4593",
+      "tag": "PHONE",
+      "reason": "This is sensitive information and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "Router Model: XYZ
+2026-04-11 12:53:40  
+2026-04-11 12:53:40  --- Page 1: 7 flagged, 2 skipped ---
+2026-04-11 12:53:40    [FLAGGED]  'Customer ID: 721493685' (ACCOUNT_NUMBER) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [FLAGGED]  'Phone Number: 907-658-4593' (PHONE) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [FLAGGED]  'Router Model: XYZ-1234' (ORG) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [FLAGGED]  'Modem Model: ABC—5678' (ORG) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [FLAGGED]  'Installation Date: 2024-08-30T19:22:48' (DOB) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [FLAGGED]  '2024-08-30T19:22:48' (DOB) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [FLAGGED]  'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system' (CORPORATE_CONFIDENTIAL) → This is sensitive information and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [SKIPPED]  'Field Technician' → This looks like a job title but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [SKIPPED]  '2024-08-30T19:22:48' → This is a timestamp and necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:53:40    [MATCHING]  Looking for 'Customer ID: 721493685' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 1 matches for 'Customer ID: 721493685'
+2026-04-11 12:53:40    [REDACTION READY]  'Customer ID: 721493685' (ACCOUNT_NUMBER) --> Ready for redaction
+2026-04-11 12:53:40    [MATCHING]  Looking for 'Phone Number: 907-658-4593' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 1 matches for 'Phone Number: 907-658-4593'
+2026-04-11 12:53:40    [REDACTION READY]  'Phone Number: 907-658-4593' (PHONE) --> Ready for redaction
+2026-04-11 12:53:40    [MATCHING]  Looking for 'Router Model: XYZ-1234' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 1 matches for 'Router Model: XYZ-1234'
+2026-04-11 12:53:40    [REDACTION READY]  'Router Model: XYZ-1234' (ORG) --> Ready for redaction
+2026-04-11 12:53:40    [MATCHING]  Looking for 'Modem Model: ABC—5678' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 1 matches for 'Modem Model: ABC—5678'
+2026-04-11 12:53:40    [REDACTION READY]  'Modem Model: ABC—5678' (ORG) --> Ready for redaction
+2026-04-11 12:53:40    [MATCHING]  Looking for 'Installation Date: 2024-08-30T19:22:48' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 1 matches for 'Installation Date: 2024-08-30T19:22:48'
+2026-04-11 12:53:40    [REDACTION READY]  'Installation Date: 2024-08-30T19:22:48' (DOB) --> Ready for redaction
+2026-04-11 12:53:40    [MATCHING]  Looking for '2024-08-30T19:22:48' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 2 matches for '2024-08-30T19:22:48'
+2026-04-11 12:53:40    [REDACTION READY]  '2024-08-30T19:22:48' (DOB) --> Ready for redaction
+2026-04-11 12:53:40    [REDACTION READY]  '2024-08-30T19:22:48' (DOB) --> Ready for redaction
+2026-04-11 12:53:40    [MATCHING]  Looking for 'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system' in full_text of length 919
+2026-04-11 12:53:40    [MATCHES]  Found 1 matches for 'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system'
+2026-04-11 12:53:40    [REDACTION READY]  'Customer Approval — Description Site Field Training XY2Z-1234 ABC-—5678 system' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 12:54:04  ======================================================================
+2026-04-11 12:54:04  _run_llm called  |  tokens=63  |  purpose='Online document management and editing platform'
+2026-04-11 12:54:04  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 12:54:04  ======================================================================
+2026-04-11 12:54:04  Calling LLM for page 1 (440 chars)...
+2026-04-11 12:54:05  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "TransitMaster Logistics",
+      "tag": "ORG",
+      "reason": "Company name, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "Beaumont, Texas, USA",
+      "tag": "GPE",
+      "reason": "Geopolitical location, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "Jefferson County, Texas",
+      "tag": "GPE",
+      "reason": "Geopolitical 
+2026-04-11 12:54:05  
+2026-04-11 12:54:05  --- Page 1: 5 flagged, 3 skipped ---
+2026-04-11 12:54:05    [FLAGGED]  'TransitMaster Logistics' (ORG) → Company name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [FLAGGED]  'Beaumont, Texas, USA' (GPE) → Geopolitical location, not necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [FLAGGED]  'Jefferson County, Texas' (GPE) → Geopolitical location, not necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [FLAGGED]  '77705' (ADDRESS) → Postal code, not necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [FLAGGED]  'SJN2G45H9KL234567' (ACCOUNT_NUMBER) → Vehicle identifier, not necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [SKIPPED]  '15 Oct 2024' → Date, looks sensitive but is necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [SKIPPED]  '9:15 AM EST' → Time, looks sensitive but is necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [SKIPPED]  'quantities, fo!' → Incomplete sentence, looks sensitive but is necessary for stated purpose of online document management and editing platform
+2026-04-11 12:54:05    [MATCHING]  Looking for 'TransitMaster Logistics' in full_text of length 440
+2026-04-11 12:54:05    [MATCHES]  Found 1 matches for 'TransitMaster Logistics'
+2026-04-11 12:54:05    [REDACTION READY]  'TransitMaster Logistics' (ORG) --> Ready for redaction
+2026-04-11 12:54:05    [MATCHING]  Looking for 'Beaumont, Texas, USA' in full_text of length 440
+2026-04-11 12:54:05    [MATCHES]  Found 1 matches for 'Beaumont, Texas, USA'
+2026-04-11 12:54:05    [REDACTION READY]  'Beaumont, Texas, USA' (GPE) --> Ready for redaction
+2026-04-11 12:54:05    [MATCHING]  Looking for 'Jefferson County, Texas' in full_text of length 440
+2026-04-11 12:54:05    [MATCHES]  Found 1 matches for 'Jefferson County, Texas'
+2026-04-11 12:54:05    [REDACTION READY]  'Jefferson County, Texas' (GPE) --> Ready for redaction
+2026-04-11 12:54:05    [MATCHING]  Looking for '77705' in full_text of length 440
+2026-04-11 12:54:05    [MATCHES]  Found 1 matches for '77705'
+2026-04-11 12:54:05    [REDACTION READY]  '77705' (ADDRESS) --> Ready for redaction
+2026-04-11 12:54:05    [MATCHING]  Looking for 'SJN2G45H9KL234567' in full_text of length 440
+2026-04-11 12:54:05    [MATCHES]  Found 1 matches for 'SJN2G45H9KL234567'
+2026-04-11 12:54:05    [REDACTION READY]  'SJN2G45H9KL234567' (ACCOUNT_NUMBER) --> Ready for redaction
+2026-04-11 12:56:07  ======================================================================
+2026-04-11 12:56:07  _run_llm called  |  tokens=157  |  purpose='Online document management and editing platform'
+2026-04-11 12:56:07  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 12:56:07  ======================================================================
+2026-04-11 12:56:07  Calling LLM for page 1 (1079 chars)...
+2026-04-11 12:56:08  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "American Chemical Solutions",
+      "tag": "ORG",
+      "reason": "This is a company name, which is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "WA-ENG-384125",
+      "tag": "LAW",
+      "reason": "This is a certificate number, which is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "September 15, 2024",
+      "tag": 
+2026-04-11 12:56:08  
+2026-04-11 12:56:08  --- Page 1: 9 flagged, 5 skipped ---
+2026-04-11 12:56:08    [FLAGGED]  'American Chemical Solutions' (ORG) → This is a company name, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'WA-ENG-384125' (LAW) → This is a certificate number, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'September 15, 2024' (DOB) → This is a date, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  '859-762-6318' (PHONE) → This is a fax number, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'KY' (GPE) → This is a state, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'Montgomery County' (GPE) → This is a county, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'USA' (GPE) → This is a country, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'EPA' (ORG) → This is an abbreviation for an organization, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [FLAGGED]  'OSHA' (ORG) → This is an abbreviation for an organization, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [SKIPPED]  'American Chemical Solutions has been certified for handling various chemicals and substances in accordance with the regulations set forth by the EPA and OSHA.' → This sentence contains potentially sensitive information about a company's certification and compliance with regulations, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [SKIPPED]  'The company operates in the state of KY, specifically in Montgomery County, ensuring that all environmental and chemical regulations are adhered to within the country of USA.' → This sentence contains potentially sensitive information about a company's location and compliance with regulations, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [SKIPPED]  'The issuing authority's signature and seal are affixed below, verifying the company's compliance with the necessary standards.' → This sentence contains potentially sensitive information about a company's compliance with standards, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [SKIPPED]  'For any inquiries or additional information, please contact the issuing authority at the fax number 859-762-6318.' → This sentence contains potentially sensitive information about a fax number, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [SKIPPED]  'All documentation and communications are provided in English.' → This sentence contains potentially sensitive information about language, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:56:08    [MATCHING]  Looking for 'American Chemical Solutions' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 2 matches for 'American Chemical Solutions'
+2026-04-11 12:56:08    [REDACTION READY]  'American Chemical Solutions' (ORG) --> Ready for redaction
+2026-04-11 12:56:08    [REDACTION READY]  'American Chemical Solutions' (ORG) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'WA-ENG-384125' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 1 matches for 'WA-ENG-384125'
+2026-04-11 12:56:08    [REDACTION READY]  'WA-ENG-384125' (LAW) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'September 15, 2024' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 1 matches for 'September 15, 2024'
+2026-04-11 12:56:08    [REDACTION READY]  'September 15, 2024' (DOB) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for '859-762-6318' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 1 matches for '859-762-6318'
+2026-04-11 12:56:08    [REDACTION READY]  '859-762-6318' (PHONE) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'KY' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 1 matches for 'KY'
+2026-04-11 12:56:08    [REDACTION READY]  'KY' (GPE) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'Montgomery County' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 1 matches for 'Montgomery County'
+2026-04-11 12:56:08    [REDACTION READY]  'Montgomery County' (GPE) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'USA' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 2 matches for 'USA'
+2026-04-11 12:56:08    [REDACTION READY]  'USA' (GPE) --> Ready for redaction
+2026-04-11 12:56:08    [REDACTION READY]  'USA' (GPE) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'EPA' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 2 matches for 'EPA'
+2026-04-11 12:56:08    [REDACTION READY]  'EPA' (ORG) --> Ready for redaction
+2026-04-11 12:56:08    [REDACTION READY]  'EPA' (ORG) --> Ready for redaction
+2026-04-11 12:56:08    [MATCHING]  Looking for 'OSHA' in full_text of length 1079
+2026-04-11 12:56:08    [MATCHES]  Found 3 matches for 'OSHA'
+2026-04-11 12:56:08    [REDACTION READY]  'OSHA' (ORG) --> Ready for redaction
+2026-04-11 12:56:08    [REDACTION READY]  'OSHA' (ORG) --> Ready for redaction
+2026-04-11 12:56:08    [REDACTION READY]  'OSHA' (ORG) --> Ready for redaction
+2026-04-11 12:57:07  ======================================================================
+2026-04-11 12:57:07  _run_llm called  |  tokens=157  |  purpose='Online document management and editing platform'
+2026-04-11 12:57:07  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 12:57:07  ======================================================================
+2026-04-11 12:57:07  Calling LLM for page 1 (1079 chars)...
+2026-04-11 12:57:09  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "American Chemical Solutions",
+      "tag": "ORG",
+      "reason": "This is a company name, which is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "WA-ENG-384125",
+      "tag": "LAW",
+      "reason": "This is a certificate number, which is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "September 15, 2024",
+      "tag": 
+2026-04-11 12:57:09  
+2026-04-11 12:57:09  --- Page 1: 9 flagged, 5 skipped ---
+2026-04-11 12:57:09    [FLAGGED]  'American Chemical Solutions' (ORG) → This is a company name, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'WA-ENG-384125' (LAW) → This is a certificate number, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'September 15, 2024' (DOB) → This is a date, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  '859-762-6318' (PHONE) → This is a fax number, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'KY' (GPE) → This is a state, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'Montgomery County' (GPE) → This is a county, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'USA' (GPE) → This is a country, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'EPA' (ORG) → This is an abbreviation for an organization, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [FLAGGED]  'OSHA' (ORG) → This is an abbreviation for an organization, which is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [SKIPPED]  'American Chemical Solutions has been certified for handling various chemicals and substances in accordance with the regulations set forth by the EPA and OSHA.' → This sentence contains potentially sensitive information about a company's certification and compliance with regulations, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [SKIPPED]  'The company operates in the state of KY, specifically in Montgomery County, ensuring that all environmental and chemical regulations are adhered to within the country of USA.' → This sentence contains potentially sensitive information about a company's location and compliance with regulations, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [SKIPPED]  'The issuing authority's signature and seal are affixed below, verifying the company's compliance with the necessary standards.' → This sentence contains potentially sensitive information about a company's compliance with standards, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [SKIPPED]  'For any inquiries or additional information, please contact the issuing authority at the fax number 859-762-6318.' → This sentence contains potentially sensitive information about a fax number, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [SKIPPED]  'All documentation and communications are provided in English.' → This sentence contains potentially sensitive information about language, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 12:57:09    [MATCHING]  Looking for 'American Chemical Solutions' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 2 matches for 'American Chemical Solutions'
+2026-04-11 12:57:09    [REDACTION READY]  'American Chemical Solutions' (ORG) --> Ready for redaction
+2026-04-11 12:57:09    [REDACTION READY]  'American Chemical Solutions' (ORG) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'WA-ENG-384125' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 1 matches for 'WA-ENG-384125'
+2026-04-11 12:57:09    [REDACTION READY]  'WA-ENG-384125' (LAW) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'September 15, 2024' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 1 matches for 'September 15, 2024'
+2026-04-11 12:57:09    [REDACTION READY]  'September 15, 2024' (DOB) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for '859-762-6318' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 1 matches for '859-762-6318'
+2026-04-11 12:57:09    [REDACTION READY]  '859-762-6318' (PHONE) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'KY' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 1 matches for 'KY'
+2026-04-11 12:57:09    [REDACTION READY]  'KY' (GPE) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'Montgomery County' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 1 matches for 'Montgomery County'
+2026-04-11 12:57:09    [REDACTION READY]  'Montgomery County' (GPE) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'USA' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 2 matches for 'USA'
+2026-04-11 12:57:09    [REDACTION READY]  'USA' (GPE) --> Ready for redaction
+2026-04-11 12:57:09    [REDACTION READY]  'USA' (GPE) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'EPA' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 2 matches for 'EPA'
+2026-04-11 12:57:09    [REDACTION READY]  'EPA' (ORG) --> Ready for redaction
+2026-04-11 12:57:09    [REDACTION READY]  'EPA' (ORG) --> Ready for redaction
+2026-04-11 12:57:09    [MATCHING]  Looking for 'OSHA' in full_text of length 1079
+2026-04-11 12:57:09    [MATCHES]  Found 3 matches for 'OSHA'
+2026-04-11 12:57:09    [REDACTION READY]  'OSHA' (ORG) --> Ready for redaction
+2026-04-11 12:57:09    [REDACTION READY]  'OSHA' (ORG) --> Ready for redaction
+2026-04-11 12:57:09    [REDACTION READY]  'OSHA' (ORG) --> Ready for redaction
+2026-04-11 13:00:12  ======================================================================
+2026-04-11 13:00:12  _run_llm called  |  tokens=407  |  purpose='Code hosting and development platform'
+2026-04-11 13:00:12  Groq client ready  |  Purpose: 'Code hosting and development platform'
+2026-04-11 13:00:12  ======================================================================
+2026-04-11 13:00:12  Calling LLM for page 1 (3019 chars)...
+2026-04-11 13:00:14  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "M K JayaSuriya",
+      "tag": "PERSON",
+      "reason": "Full name of an individual, not necessary for the stated purpose of code hosting and development platform"
+    },
+    {
+      "text": "mkjayasuriyal15@qmail.com",
+      "tag": "EMAIL",
+      "reason": "Email address of an individual, not necessary for the stated purpose of code hosting and development platform"
+    },
+    {
+      "text": "8754187111",
+      "tag": "PHONE",
+      "reason": "Phone number
+2026-04-11 13:00:14  
+2026-04-11 13:00:14  --- Page 1: 12 flagged, 5 skipped ---
+2026-04-11 13:00:14    [FLAGGED]  'M K JayaSuriya' (PERSON) → Full name of an individual, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'mkjayasuriyal15@qmail.com' (EMAIL) → Email address of an individual, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  '8754187111' (PHONE) → Phone number of an individual, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) → Name of an educational institution, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'Coimbatore Institute of Technology' (ORG) → Name of an educational institution, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'CGPA : 7.97(Till Semester)' (MONEY) → Financial information, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  '81%' (MONEY) → Financial information, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'SHADOW Mark 1' (CORPORATE_CONFIDENTIAL) → Trade secret or unreleased product name, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'MARKET BOT' (CORPORATE_CONFIDENTIAL) → Trade secret or unreleased product name, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'SIEARRA ODC PVT LTD' (ORG) → Name of a company, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'Financial Risk Analytics Lb s INEX' (CORPORATE_CONFIDENTIAL) → Trade secret or unreleased product name, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [FLAGGED]  'DistilGPT-2 — drive cor Lh shen y Gust Nb Gobo y yooute' (CORPORATE_CONFIDENTIAL) → Trade secret or unreleased product name, not necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [SKIPPED]  '8754187111' → Phone number appears in a project description, necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [SKIPPED]  'SHADOW Mark 1' → Project name appears in a project description, necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [SKIPPED]  'MARKET BOT' → Project name appears in a project description, necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [SKIPPED]  'SIEARRA ODC PVT LTD' → Company name appears in an internship description, necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [SKIPPED]  'Financial Risk Analytics Lb s INEX' → Certification name appears in an interests section, necessary for the stated purpose of code hosting and development platform
+2026-04-11 13:00:14    [MATCHING]  Looking for 'M K JayaSuriya' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'M K JayaSuriya'
+2026-04-11 13:00:14    [REDACTION READY]  'M K JayaSuriya' (PERSON) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'mkjayasuriyal15@qmail.com' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'mkjayasuriyal15@qmail.com'
+2026-04-11 13:00:14    [REDACTION READY]  'mkjayasuriyal15@qmail.com' (EMAIL) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for '8754187111' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for '8754187111'
+2026-04-11 13:00:14    [REDACTION READY]  '8754187111' (PHONE) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'M.Sc. Artificial Intelligence and Machine Learning' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 2 matches for 'M.Sc. Artificial Intelligence and Machine Learning'
+2026-04-11 13:00:14    [REDACTION READY]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) --> Ready for redaction
+2026-04-11 13:00:14    [REDACTION READY]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'Coimbatore Institute of Technology' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'Coimbatore Institute of Technology'
+2026-04-11 13:00:14    [REDACTION READY]  'Coimbatore Institute of Technology' (ORG) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'CGPA : 7.97(Till Semester)' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'CGPA : 7.97(Till Semester)'
+2026-04-11 13:00:14    [REDACTION READY]  'CGPA : 7.97(Till Semester)' (MONEY) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for '81%' in full_text of length 3019
+2026-04-11 13:00:14    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:00:14    [MATCHES]  Found 0 matches for '81%'
+2026-04-11 13:00:14    [FAILED]  No text matches found for '81%' - entity creation skipped
+2026-04-11 13:00:14    [MATCHING]  Looking for 'SHADOW Mark 1' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'SHADOW Mark 1'
+2026-04-11 13:00:14    [REDACTION READY]  'SHADOW Mark 1' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'MARKET BOT' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'MARKET BOT'
+2026-04-11 13:00:14    [REDACTION READY]  'MARKET BOT' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'SIEARRA ODC PVT LTD' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'SIEARRA ODC PVT LTD'
+2026-04-11 13:00:14    [REDACTION READY]  'SIEARRA ODC PVT LTD' (ORG) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'Financial Risk Analytics Lb s INEX' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'Financial Risk Analytics Lb s INEX'
+2026-04-11 13:00:14    [REDACTION READY]  'Financial Risk Analytics Lb s INEX' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:00:14    [MATCHING]  Looking for 'DistilGPT-2 — drive cor Lh shen y Gust Nb Gobo y yooute' in full_text of length 3019
+2026-04-11 13:00:14    [MATCHES]  Found 1 matches for 'DistilGPT-2 — drive cor Lh shen y Gust Nb Gobo y yooute'
+2026-04-11 13:00:14    [REDACTION READY]  'DistilGPT-2 — drive cor Lh shen y Gust Nb Gobo y yooute' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:10:31  ======================================================================
+2026-04-11 13:10:31  _run_llm called  |  tokens=411  |  purpose='Online document management and editing platform'
+2026-04-11 13:10:31  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 13:10:31  ======================================================================
+2026-04-11 13:10:31  Calling LLM for page 1 (3180 chars)...
+2026-04-11 13:10:33  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "M K JayaSuriya",
+      "tag": "PERSON",
+      "reason": "Full name, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "M.Sc. Artificial Intelligence and Machine Learning",
+      "tag": "ORG",
+      "reason": "Education institution name, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "Coimbatore Institute of Technology",
+      "tag": 
+2026-04-11 13:10:33  Primary JSON parse failed — trying regex fallback extraction
+2026-04-11 13:10:33  Fallback extracted 40 object(s)
+2026-04-11 13:10:33  
+2026-04-11 13:10:33  --- Page 1: 40 flagged, 0 skipped ---
+2026-04-11 13:10:33    [FLAGGED]  'M K JayaSuriya' (PERSON) → Full name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) → Education institution name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'Coimbatore Institute of Technology' (ORG) → Education institution name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'CGPA : Semester)' (MONEY) → Financial information, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  '81%' (MONEY) → Financial information, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'SHADOW Mark 1' (ORG) → Project name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'MARKET BOT' (ORG) → Project name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'AIML Student Association' (ORG) → Organization name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'Google Developer Student Club (GDSC)' (ORG) → Organization name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  '7.93' (MONEY) → Financial information, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'Financial Risk Analytics' (ORG) → Certification name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'DistilGPT-2' (CORPORATE_CONFIDENTIAL) → Trade secret, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://www.linkedin.com/in/mk-jayasuriya/' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [FLAGGED]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:10:33    [MATCHING]  Looking for 'M K JayaSuriya' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'M K JayaSuriya'
+2026-04-11 13:10:33    [REDACTION READY]  'M K JayaSuriya' (PERSON) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'M.Sc. Artificial Intelligence and Machine Learning' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 2 matches for 'M.Sc. Artificial Intelligence and Machine Learning'
+2026-04-11 13:10:33    [REDACTION READY]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [REDACTION READY]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'Coimbatore Institute of Technology' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 2 matches for 'Coimbatore Institute of Technology'
+2026-04-11 13:10:33    [REDACTION READY]  'Coimbatore Institute of Technology' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [REDACTION READY]  'Coimbatore Institute of Technology' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'CGPA : Semester)' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'CGPA : Semester)'
+2026-04-11 13:10:33    [REDACTION READY]  'CGPA : Semester)' (MONEY) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for '81%' in full_text of length 3180
+2026-04-11 13:10:33    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:10:33    [MATCHES]  Found 0 matches for '81%'
+2026-04-11 13:10:33    [FAILED]  No text matches found for '81%' - entity creation skipped
+2026-04-11 13:10:33    [MATCHING]  Looking for 'SHADOW Mark 1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'SHADOW Mark 1'
+2026-04-11 13:10:33    [REDACTION READY]  'SHADOW Mark 1' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'MARKET BOT' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'MARKET BOT'
+2026-04-11 13:10:33    [REDACTION READY]  'MARKET BOT' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'AIML Student Association' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'AIML Student Association'
+2026-04-11 13:10:33    [REDACTION READY]  'AIML Student Association' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'Google Developer Student Club (GDSC)' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'Google Developer Student Club (GDSC)'
+2026-04-11 13:10:33    [REDACTION READY]  'Google Developer Student Club (GDSC)' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for '7.93' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for '7.93'
+2026-04-11 13:10:33    [REDACTION READY]  '7.93' (MONEY) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'Financial Risk Analytics' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'Financial Risk Analytics'
+2026-04-11 13:10:33    [REDACTION READY]  'Financial Risk Analytics' (ORG) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'DistilGPT-2' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 2 matches for 'DistilGPT-2'
+2026-04-11 13:10:33    [REDACTION READY]  'DistilGPT-2' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:10:33    [REDACTION READY]  'DistilGPT-2' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://www.linkedin.com/in/mk-jayasuriya/' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://www.linkedin.com/in/mk-jayasuriya/'
+2026-04-11 13:10:33    [REDACTION READY]  'https://www.linkedin.com/in/mk-jayasuriya/' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 3 matches for 'https://github.com/Wolf-Ra'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Woalf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Woalf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Woalf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/SHADOW-Mark-1' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/SHADOW-Mark-1'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/SHADOW-Mark-1' (EMAIL) --> Ready for redaction
+2026-04-11 13:10:33    [MATCHING]  Looking for 'https://github.com/Wolf-Ra/AdverusingBot' in full_text of length 3180
+2026-04-11 13:10:33    [MATCHES]  Found 1 matches for 'https://github.com/Wolf-Ra/AdverusingBot'
+2026-04-11 13:10:33    [REDACTION READY]  'https://github.com/Wolf-Ra/AdverusingBot' (EMAIL) --> Ready for redaction
+2026-04-11 13:15:20  ======================================================================
+2026-04-11 13:15:20  _run_llm called  |  tokens=417  |  purpose='Online document management and editing platform'
+2026-04-11 13:15:20  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 13:15:20  ======================================================================
+2026-04-11 13:15:20  Calling LLM for page 1 (3196 chars)...
+2026-04-11 13:15:24  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "M K JayaSuriya",
+      "tag": "PERSON",
+      "reason": "Full name, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "8754187111",
+      "tag": "PHONE",
+      "reason": "Phone number, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "https://www.linkedin.com/in/mk-jayasuriya/",
+      "tag": "EMAIL",
+      "reason": "Email address, not
+2026-04-11 13:15:24  
+2026-04-11 13:15:24  --- Page 1: 25 flagged, 24 skipped ---
+2026-04-11 13:15:24    [FLAGGED]  'M K JayaSuriya' (PERSON) → Full name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  '8754187111' (PHONE) → Phone number, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'https://www.linkedin.com/in/mk-jayasuriya/' (EMAIL) → Email address, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) → Education institution name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Coimbatore Institute of Technology' (ORG) → Education institution name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'CGPA: 7.94(Till V Semester)' (MONEY) → Financial information, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  '81%' (MONEY) → Financial information, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'SHADOW Mark - 1' (ORG) → Project name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'MARKET BOT' (ORG) → Project name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'AIML Student Association' (ORG) → Organization name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Google Developer Student Club (GDSC)' (ORG) → Organization name, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Financial Risk Analytics' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'National Al internship' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'DistilIBERT' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'DistilGPT-2' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Streamlit' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'TensorFlow' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Keras' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Plotly' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Dash' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Flask' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Mongo DB' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'SQL' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'AWS' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [FLAGGED]  'Docker' (CORPORATE_CONFIDENTIAL) → Trade secrets, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'M.Sc. Artificial Intelligence and Machine Learning (Integrated)' → Looks like sensitive information, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  '8754187111' → Looks like phone number, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'https://www.linkedin.com/in/mk-jayasuriya/' → Looks like email address, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Coimbatore Institute of Technology' → Looks like education institution name, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'CGPA: 7.94(Till V Semester)' → Looks like financial information, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  '81%' → Looks like financial information, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'SHADOW Mark - 1' → Looks like project name, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'MARKET BOT' → Looks like project name, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'AIML Student Association' → Looks like organization name, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Google Developer Student Club (GDSC)' → Looks like organization name, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Financial Risk Analytics' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'National Al internship' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'DistilIBERT' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'DistilGPT-2' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Streamlit' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'TensorFlow' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Keras' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Plotly' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Dash' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Flask' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Mongo DB' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'SQL' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'AWS' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [SKIPPED]  'Docker' → Looks like trade secrets, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:15:24    [MATCHING]  Looking for 'M K JayaSuriya' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'M K JayaSuriya'
+2026-04-11 13:15:24    [REDACTION READY]  'M K JayaSuriya' (PERSON) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for '8754187111' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for '8754187111'
+2026-04-11 13:15:24    [REDACTION READY]  '8754187111' (PHONE) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'https://www.linkedin.com/in/mk-jayasuriya/' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'https://www.linkedin.com/in/mk-jayasuriya/'
+2026-04-11 13:15:24    [REDACTION READY]  'https://www.linkedin.com/in/mk-jayasuriya/' (EMAIL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'M.Sc. Artificial Intelligence and Machine Learning' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 2 matches for 'M.Sc. Artificial Intelligence and Machine Learning'
+2026-04-11 13:15:24    [REDACTION READY]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [REDACTION READY]  'M.Sc. Artificial Intelligence and Machine Learning' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Coimbatore Institute of Technology' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 2 matches for 'Coimbatore Institute of Technology'
+2026-04-11 13:15:24    [REDACTION READY]  'Coimbatore Institute of Technology' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [REDACTION READY]  'Coimbatore Institute of Technology' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'CGPA: 7.94(Till V Semester)' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'CGPA: 7.94(Till V Semester)'
+2026-04-11 13:15:24    [REDACTION READY]  'CGPA: 7.94(Till V Semester)' (MONEY) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for '81%' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for '81%'
+2026-04-11 13:15:24    [REDACTION READY]  '81%' (MONEY) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'SHADOW Mark - 1' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'SHADOW Mark - 1'
+2026-04-11 13:15:24    [REDACTION READY]  'SHADOW Mark - 1' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'MARKET BOT' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'MARKET BOT'
+2026-04-11 13:15:24    [REDACTION READY]  'MARKET BOT' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'AIML Student Association' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'AIML Student Association'
+2026-04-11 13:15:24    [REDACTION READY]  'AIML Student Association' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Google Developer Student Club (GDSC)' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Google Developer Student Club (GDSC)'
+2026-04-11 13:15:24    [REDACTION READY]  'Google Developer Student Club (GDSC)' (ORG) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Financial Risk Analytics' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Financial Risk Analytics'
+2026-04-11 13:15:24    [REDACTION READY]  'Financial Risk Analytics' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'National Al internship' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'National Al internship'
+2026-04-11 13:15:24    [REDACTION READY]  'National Al internship' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'DistilIBERT' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'DistilIBERT'
+2026-04-11 13:15:24    [REDACTION READY]  'DistilIBERT' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'DistilGPT-2' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 2 matches for 'DistilGPT-2'
+2026-04-11 13:15:24    [REDACTION READY]  'DistilGPT-2' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [REDACTION READY]  'DistilGPT-2' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Streamlit' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 2 matches for 'Streamlit'
+2026-04-11 13:15:24    [REDACTION READY]  'Streamlit' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [REDACTION READY]  'Streamlit' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'TensorFlow' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'TensorFlow'
+2026-04-11 13:15:24    [REDACTION READY]  'TensorFlow' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Keras' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Keras'
+2026-04-11 13:15:24    [REDACTION READY]  'Keras' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Plotly' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Plotly'
+2026-04-11 13:15:24    [REDACTION READY]  'Plotly' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Dash' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Dash'
+2026-04-11 13:15:24    [REDACTION READY]  'Dash' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Flask' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Flask'
+2026-04-11 13:15:24    [REDACTION READY]  'Flask' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Mongo DB' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Mongo DB'
+2026-04-11 13:15:24    [REDACTION READY]  'Mongo DB' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'SQL' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'SQL'
+2026-04-11 13:15:24    [REDACTION READY]  'SQL' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'AWS' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'AWS'
+2026-04-11 13:15:24    [REDACTION READY]  'AWS' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:15:24    [MATCHING]  Looking for 'Docker' in full_text of length 3196
+2026-04-11 13:15:24    [MATCHES]  Found 1 matches for 'Docker'
+2026-04-11 13:15:24    [REDACTION READY]  'Docker' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:17:41  ======================================================================
+2026-04-11 13:17:41  _run_llm called  |  tokens=1013  |  purpose='Online document management and editing platform'
+2026-04-11 13:17:42  Groq client ready  |  Purpose: 'Online document management and editing platform'
+2026-04-11 13:17:42  ======================================================================
+2026-04-11 13:17:42  Calling LLM for page 1 (374 chars)...
+2026-04-11 13:17:43  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "71762234053",
+      "tag": "PHONE",
+      "reason": "This phone number is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "71762234020",
+      "tag": "PHONE",
+      "reason": "This phone number is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "Dr.P.Aruna",
+      "tag": "PERSON",
+      "reason": "This person's name is not
+2026-04-11 13:17:43  
+2026-04-11 13:17:43  --- Page 1: 8 flagged, 5 skipped ---
+2026-04-11 13:17:43    [FLAGGED]  '71762234053' (PHONE) → This phone number is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  '71762234020' (PHONE) → This phone number is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  'Dr.P.Aruna' (PERSON) → This person's name is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  'Dr.R.Sudha Muthusamy' (PERSON) → This person's name is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  'SUVETHA V' (PERSON) → This person's name is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  'JAYASURIYA MK' (PERSON) → This person's name is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  'COIMBATORE INSTITUTE OF TECHNOLOGY' (ORG) → This organisation's name is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [FLAGGED]  'Anna University' (ORG) → This organisation's name is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [SKIPPED]  '4, UTE ~~ LE @ | \ m fo) a yf I 19MAMEL03' → This looks like a unique identifier but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [SKIPPED]  'NATURAL LANGUAGE PROCESSING LAB CONTINUOUS ASSESSMENT TEST - 2' → This looks like sensitive information but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [SKIPPED]  'BIZMENTOR-AI' → This looks like a trade secret but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [SKIPPED]  'MSME Market Analyzer' → This looks like sensitive information but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [SKIPPED]  'Dr.P.Aruna Dr.R.Sudha Muthusamy' → This looks like sensitive information but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:43    [MATCHING]  Looking for '71762234053' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for '71762234053'
+2026-04-11 13:17:43    [REDACTION READY]  '71762234053' (PHONE) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for '71762234020' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for '71762234020'
+2026-04-11 13:17:43    [REDACTION READY]  '71762234020' (PHONE) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for 'Dr.P.Aruna' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for 'Dr.P.Aruna'
+2026-04-11 13:17:43    [REDACTION READY]  'Dr.P.Aruna' (PERSON) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for 'Dr.R.Sudha Muthusamy' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for 'Dr.R.Sudha Muthusamy'
+2026-04-11 13:17:43    [REDACTION READY]  'Dr.R.Sudha Muthusamy' (PERSON) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for 'SUVETHA V' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for 'SUVETHA V'
+2026-04-11 13:17:43    [REDACTION READY]  'SUVETHA V' (PERSON) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for 'JAYASURIYA MK' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for 'JAYASURIYA MK'
+2026-04-11 13:17:43    [REDACTION READY]  'JAYASURIYA MK' (PERSON) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for 'COIMBATORE INSTITUTE OF TECHNOLOGY' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for 'COIMBATORE INSTITUTE OF TECHNOLOGY'
+2026-04-11 13:17:43    [REDACTION READY]  'COIMBATORE INSTITUTE OF TECHNOLOGY' (ORG) --> Ready for redaction
+2026-04-11 13:17:43    [MATCHING]  Looking for 'Anna University' in full_text of length 374
+2026-04-11 13:17:43    [MATCHES]  Found 1 matches for 'Anna University'
+2026-04-11 13:17:43    [REDACTION READY]  'Anna University' (ORG) --> Ready for redaction
+2026-04-11 13:17:43  Calling LLM for page 2 (2354 chars)...
+2026-04-11 13:17:45  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "MSME",
+      "tag": "ORG",
+      "reason": "This is a specific type of business, but it is necessary for the stated purpose of the document management and editing platform."
+    },
+    {
+      "text": "Indian",
+      "tag": "GPE",
+      "reason": "This is a geopolitical location, but it is necessary for the stated purpose of the document management and editing platform."
+    },
+    {
+      "text": "Aadhaar numbers",
+      "tag": "AADHAAR",
+      "reason": "T
+2026-04-11 13:17:45  
+2026-04-11 13:17:45  --- Page 2: 18 flagged, 5 skipped ---
+2026-04-11 13:17:45    [FLAGGED]  'MSME' (ORG) → This is a specific type of business, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [FLAGGED]  'Indian' (GPE) → This is a geopolitical location, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [FLAGGED]  'Aadhaar numbers' (AADHAAR) → This is a type of sensitive ID, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'PAN card numbers' (PAN) → This is a type of sensitive ID, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Bank account or financial account numbers' (ACCOUNT_NUMBER) → This is a type of sensitive financial information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Passport numbers' (PASSPORT) → This is a type of sensitive ID, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Driver's licence numbers' (DRIVER_LICENSE) → This is a type of sensitive ID, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Legal case numbers' (LAW) → This is a type of sensitive legal information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Trade secrets, internal codes, unreleased product names' (CORPORATE_CONFIDENTIAL) → This is a type of sensitive business information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Salary, financial amounts, transaction values' (MONEY) → This is a type of sensitive financial information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Diagnosis, medications, clinical notes, test results' (MEDICAL_HISTORY) → This is a type of sensitive medical information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'IPv4 or IPv6 addresses' (IP_ADDRESS) → This is a type of sensitive network information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Date of birth' (DOB) → This is a type of sensitive personal information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Credit/debit card numbers' (CREDIT_CARD) → This is a type of sensitive financial information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Social Security Number or national ID' (SSN) → This is a type of sensitive ID, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Company, institution, or organisation name' (ORG) → This is a type of sensitive business information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Specific geopolitical location (city, state, country)' (GPE) → This is a type of sensitive location information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [FLAGGED]  'Anything else that is clearly private or confidential' (SENSITIVE) → This is a type of sensitive information, but it is not mentioned in the text as a necessary piece of information for the stated purpose.
+2026-04-11 13:17:45    [SKIPPED]  'MSME owners' → This looks like a sensitive business term, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [SKIPPED]  'E-commerce platforms' → This looks like a sensitive business term, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [SKIPPED]  'Policy interpretation and compliance checks' → This looks like a sensitive business term, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [SKIPPED]  'Inventory and order management' → This looks like a sensitive business term, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [SKIPPED]  'Customer inquiries and complaints' → This looks like a sensitive business term, but it is necessary for the stated purpose of the document management and editing platform.
+2026-04-11 13:17:45    [MATCHING]  Looking for 'MSME' in full_text of length 2354
+2026-04-11 13:17:45    [MATCHES]  Found 6 matches for 'MSME'
+2026-04-11 13:17:45    [REDACTION READY]  'MSME' (ORG) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'MSME' (ORG) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'MSME' (ORG) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'MSME' (ORG) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'MSME' (ORG) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'MSME' (ORG) --> Ready for redaction
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Indian' in full_text of length 2354
+2026-04-11 13:17:45    [MATCHES]  Found 4 matches for 'Indian'
+2026-04-11 13:17:45    [REDACTION READY]  'Indian' (GPE) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'Indian' (GPE) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'Indian' (GPE) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'Indian' (GPE) --> Ready for redaction
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Aadhaar numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Aadhaar numbers'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Aadhaar numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Aadhaar numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'PAN card numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'PAN card numbers'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'PAN card numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'PAN card numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Bank account or financial account numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Bank account or financial account numbers'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Bank account or financial account numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Bank account or financial account numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Passport numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Passport numbers'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Passport numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Passport numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Driver's licence numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Driver's licence numbers'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Driver's licence numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Driver's licence numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Legal case numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Legal case numbers'
+2026-04-11 13:17:45    [WORD MATCH]  Found 4 matches for word 'Legal'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Legal case numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Legal case numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Trade secrets, internal codes, unreleased product names' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Trade secrets, internal codes, unreleased product names'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Trade secrets, internal codes, unreleased product names'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Trade secrets, internal codes, unreleased product names' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Salary, financial amounts, transaction values' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Salary, financial amounts, transaction values'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Salary, financial amounts, transaction values'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Salary, financial amounts, transaction values' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Diagnosis, medications, clinical notes, test results' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Diagnosis, medications, clinical notes, test results'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Diagnosis, medications, clinical notes, test results'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Diagnosis, medications, clinical notes, test results' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'IPv4 or IPv6 addresses' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'IPv4 or IPv6 addresses'
+2026-04-11 13:17:45    [WORD MATCH]  Found 2 matches for word 'addresses'
+2026-04-11 13:17:45    [MULTI-WORD SUCCESS]  Combined 2 word matches for 'IPv4 or IPv6 addresses'
+2026-04-11 13:17:45    [MATCHES]  Found 2 matches for 'IPv4 or IPv6 addresses'
+2026-04-11 13:17:45    [REDACTION READY]  'IPv4 or IPv6 addresses' (IP_ADDRESS) --> Ready for redaction
+2026-04-11 13:17:45    [REDACTION READY]  'IPv4 or IPv6 addresses' (IP_ADDRESS) --> Ready for redaction
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Date of birth' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Date of birth'
+2026-04-11 13:17:45    [WORD MATCH]  Found 12 matches for word 'of'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Date of birth'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Date of birth' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Credit/debit card numbers' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Credit/debit card numbers'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Credit/debit card numbers'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Credit/debit card numbers' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Social Security Number or national ID' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Social Security Number or national ID'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Social Security Number or national ID'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Social Security Number or national ID' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Company, institution, or organisation name' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Company, institution, or organisation name'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Company, institution, or organisation name'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Company, institution, or organisation name' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Specific geopolitical location (city, state, country)' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Specific geopolitical location (city, state, country)'
+2026-04-11 13:17:45    [WORD MATCH]  Found 2 matches for word 'Specific'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Specific geopolitical location (city, state, country)'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Specific geopolitical location (city, state, country)' - entity creation skipped
+2026-04-11 13:17:45    [MATCHING]  Looking for 'Anything else that is clearly private or confidential' in full_text of length 2354
+2026-04-11 13:17:45    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:45    [MULTI-WORD]  Trying multi-word entity matching for 'Anything else that is clearly private or confidential'
+2026-04-11 13:17:45    [WORD MATCH]  Found 2 matches for word 'that'
+2026-04-11 13:17:45    [MATCHES]  Found 0 matches for 'Anything else that is clearly private or confidential'
+2026-04-11 13:17:45    [FAILED]  No text matches found for 'Anything else that is clearly private or confidential' - entity creation skipped
+2026-04-11 13:17:45  Calling LLM for page 3 (1774 chars)...
+2026-04-11 13:17:49  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "50,000+ MSME-specific documents",
+      "tag": "ORG",
+      "reason": "This is sensitive because it contains information about a specific number of documents, but it is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "Tamil, Bengali, etc.",
+      "tag": "GPE",
+      "reason": "This is sensitive because it contains information about specific geographic locations, but it is not necessary for 
+2026-04-11 13:17:49  Primary JSON parse failed — trying regex fallback extraction
+2026-04-11 13:17:49  Fallback extracted 38 object(s)
+2026-04-11 13:17:49  
+2026-04-11 13:17:49  --- Page 3: 38 flagged, 0 skipped ---
+2026-04-11 13:17:49    [FLAGGED]  '50,000+ MSME-specific documents' (ORG) → This is sensitive because it contains information about a specific number of documents, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Tamil, Bengali, etc.' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '12 Indian languages plus English' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '10:1 summarization' (MONEY) → This is sensitive because it contains information about a financial ratio, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '16,000 tokens' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '10:1 summarization' (MONEY) → This is sensitive because it contains information about a financial ratio, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '768-dimensional embeddings' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '12 layers' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '50,000+ MSME-specific documents' (ORG) → This is sensitive because it contains information about a specific number of documents, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Tamil, Bengali, etc.' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '12 Indian languages plus English' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '10:1 summarization' (MONEY) → This is sensitive because it contains information about a financial ratio, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '16,000 tokens' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '768-dimensional embeddings' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '12 layers' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Indian e-commerce regulations' (LAW) → This is sensitive because it contains information about specific regulations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Indian customer service interactions' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'real-time policy updates' (LAW) → This is sensitive because it contains information about specific regulations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'contract terms' (LAW) → This is sensitive because it contains information about specific regulations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Indian customer service interactions' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'regional expressions' (GPE) → This is sensitive because it contains information about specific geographic locations, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'vernacular business term extraction' (ORG) → This is sensitive because it contains information about specific business terms, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'currency and quantity normalization' (MONEY) → This is sensitive because it contains information about financial values, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '3 generation' (MONEY) → This is sensitive because it contains information about a financial value, but it is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'MSME Market Analyzer' () → This looks sensitive because it contains information about a specific market analyzer, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'multi-modal architecture' () → This looks sensitive because it contains information about a specific architecture, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Encoder-Decoder Framework' () → This looks sensitive because it contains information about a specific framework, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Encoder Component' () → This looks sensitive because it contains information about a specific component, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Decoder Component' () → This looks sensitive because it contains information about a specific component, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Transformer-based decoder' () → This looks sensitive because it contains information about a specific decoder, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '12 layers' () → This looks sensitive because it contains information about a specific number of layers, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  '768-dimensional embeddings' () → This looks sensitive because it contains information about a specific dimensionality, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Attention mechanisms' () → This looks sensitive because it contains information about specific mechanisms, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Domain Adaptation' () → This looks sensitive because it contains information about specific adaptation, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Trained on 50,000+ MSME-specific documents' () → This looks sensitive because it contains information about a specific number of documents, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'fine-tuned on Indian business corpus' () → This looks sensitive because it contains information about a specific corpus, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Handles mixed language inputs' () → This looks sensitive because it contains information about specific language inputs, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [FLAGGED]  'Contextual Understanding' () → This looks sensitive because it contains information about specific understanding, but it is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:17:49    [MATCHING]  Looking for '50,000+ MSME-specific documents' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '50,000+ MSME-specific documents'
+2026-04-11 13:17:49    [REDACTION READY]  '50,000+ MSME-specific documents' (ORG) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'Tamil, Bengali, etc.' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'Tamil, Bengali, etc.'
+2026-04-11 13:17:49    [REDACTION READY]  'Tamil, Bengali, etc.' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '12 Indian languages plus English' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '12 Indian languages plus English'
+2026-04-11 13:17:49    [REDACTION READY]  '12 Indian languages plus English' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '10:1 summarization' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '10:1 summarization'
+2026-04-11 13:17:49    [REDACTION READY]  '10:1 summarization' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '16,000 tokens' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '16,000 tokens'
+2026-04-11 13:17:49    [REDACTION READY]  '16,000 tokens' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '10:1 summarization' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '10:1 summarization'
+2026-04-11 13:17:49    [REDACTION READY]  '10:1 summarization' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '768-dimensional embeddings' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '768-dimensional embeddings'
+2026-04-11 13:17:49    [REDACTION READY]  '768-dimensional embeddings' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '12 layers' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '12 layers'
+2026-04-11 13:17:49    [REDACTION READY]  '12 layers' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '50,000+ MSME-specific documents' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '50,000+ MSME-specific documents'
+2026-04-11 13:17:49    [REDACTION READY]  '50,000+ MSME-specific documents' (ORG) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'Tamil, Bengali, etc.' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'Tamil, Bengali, etc.'
+2026-04-11 13:17:49    [REDACTION READY]  'Tamil, Bengali, etc.' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '12 Indian languages plus English' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '12 Indian languages plus English'
+2026-04-11 13:17:49    [REDACTION READY]  '12 Indian languages plus English' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '10:1 summarization' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '10:1 summarization'
+2026-04-11 13:17:49    [REDACTION READY]  '10:1 summarization' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '16,000 tokens' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '16,000 tokens'
+2026-04-11 13:17:49    [REDACTION READY]  '16,000 tokens' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '768-dimensional embeddings' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '768-dimensional embeddings'
+2026-04-11 13:17:49    [REDACTION READY]  '768-dimensional embeddings' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '12 layers' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '12 layers'
+2026-04-11 13:17:49    [REDACTION READY]  '12 layers' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'Indian e-commerce regulations' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'Indian e-commerce regulations'
+2026-04-11 13:17:49    [REDACTION READY]  'Indian e-commerce regulations' (LAW) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'Indian customer service interactions' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'Indian customer service interactions'
+2026-04-11 13:17:49    [REDACTION READY]  'Indian customer service interactions' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'real-time policy updates' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'real-time policy updates'
+2026-04-11 13:17:49    [REDACTION READY]  'real-time policy updates' (LAW) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'contract terms' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'contract terms'
+2026-04-11 13:17:49    [REDACTION READY]  'contract terms' (LAW) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'Indian customer service interactions' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'Indian customer service interactions'
+2026-04-11 13:17:49    [REDACTION READY]  'Indian customer service interactions' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'regional expressions' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for 'regional expressions'
+2026-04-11 13:17:49    [REDACTION READY]  'regional expressions' (GPE) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'vernacular business term extraction' in full_text of length 1774
+2026-04-11 13:17:49    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:49    [MULTI-WORD]  Trying multi-word entity matching for 'vernacular business term extraction'
+2026-04-11 13:17:49    [WORD MATCH]  Found 2 matches for word 'vernacular'
+2026-04-11 13:17:49    [WORD MATCH]  Found 14 matches for word 'business'
+2026-04-11 13:17:49    [WORD MATCH]  Found 2 matches for word 'term'
+2026-04-11 13:17:49    [WORD MATCH]  Found 4 matches for word 'extraction'
+2026-04-11 13:17:49    [MULTI-WORD SUCCESS]  Combined 4 word matches for 'vernacular business term extraction'
+2026-04-11 13:17:49    [MATCHES]  Found 4 matches for 'vernacular business term extraction'
+2026-04-11 13:17:49    [REDACTION READY]  'vernacular business term extraction' (ORG) --> Ready for redaction
+2026-04-11 13:17:49    [REDACTION READY]  'vernacular business term extraction' (ORG) --> Ready for redaction
+2026-04-11 13:17:49    [REDACTION READY]  'vernacular business term extraction' (ORG) --> Ready for redaction
+2026-04-11 13:17:49    [REDACTION READY]  'vernacular business term extraction' (ORG) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for 'currency and quantity normalization' in full_text of length 1774
+2026-04-11 13:17:49    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:17:49    [MULTI-WORD]  Trying multi-word entity matching for 'currency and quantity normalization'
+2026-04-11 13:17:49    [WORD MATCH]  Found 2 matches for word 'currency'
+2026-04-11 13:17:49    [WORD MATCH]  Found 4 matches for word 'and'
+2026-04-11 13:17:49    [WORD MATCH]  Found 2 matches for word 'quantity'
+2026-04-11 13:17:49    [WORD MATCH]  Found 2 matches for word 'normalization'
+2026-04-11 13:17:49    [MULTI-WORD SUCCESS]  Combined 2 word matches for 'currency and quantity normalization'
+2026-04-11 13:17:49    [MATCHES]  Found 2 matches for 'currency and quantity normalization'
+2026-04-11 13:17:49    [REDACTION READY]  'currency and quantity normalization' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [REDACTION READY]  'currency and quantity normalization' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49    [MATCHING]  Looking for '3 generation' in full_text of length 1774
+2026-04-11 13:17:49    [MATCHES]  Found 1 matches for '3 generation'
+2026-04-11 13:17:49    [REDACTION READY]  '3 generation' (MONEY) --> Ready for redaction
+2026-04-11 13:17:49  Calling LLM for page 4 (584 chars)...
+2026-04-11 13:18:21  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "2TB",
+      "tag": "MONEY",
+      "reason": "This is a financial amount and is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "420M",
+      "tag": "MONEY",
+      "reason": "This is a financial amount and is not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "94.3%",
+      "tag": "MONEY",
+      "reason": "This is a financial 
+2026-04-11 13:18:21  
+2026-04-11 13:18:21  --- Page 4: 10 flagged, 6 skipped ---
+2026-04-11 13:18:21    [FLAGGED]  '2TB' (MONEY) → This is a financial amount and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  '420M' (MONEY) → This is a financial amount and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  '94.3%' (MONEY) → This is a financial amount and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  '6+' (MONEY) → This is a financial amount and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  'a ron List' (PERSON) → This is a full name and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  'Glas (Sel oD ltitz eat ith)' (PERSON) → This is a full name and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  'Umma tional' (ORG) → This is a company name and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  'OAS, Ger _ fate Gre tiona' (ORG) → This is a company name and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  'TGenenation' (ORG) → This is a company name and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [FLAGGED]  'cuda iT iD cpu i amie' (ORG) → This is a company name and is not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [SKIPPED]  'Technical Specifications Training Dataset' → This looks like a sensitive dataset name but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [SKIPPED]  'Model Size' → This looks like a sensitive model size but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [SKIPPED]  'Inference Time' → This looks like a sensitive inference time but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [SKIPPED]  'Accuracy' → This looks like a sensitive accuracy but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [SKIPPED]  'Languages Supported' → This looks like a sensitive language list but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [SKIPPED]  'SAMPLE CODE' → This looks like a sensitive code snippet but is necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:21    [MATCHING]  Looking for '2TB' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for '2TB'
+2026-04-11 13:18:21    [REDACTION READY]  '2TB' (MONEY) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for '420M' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for '420M'
+2026-04-11 13:18:21    [REDACTION READY]  '420M' (MONEY) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for '94.3%' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for '94.3%'
+2026-04-11 13:18:21    [REDACTION READY]  '94.3%' (MONEY) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for '6+' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for '6+'
+2026-04-11 13:18:21    [REDACTION READY]  '6+' (MONEY) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for 'a ron List' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for 'a ron List'
+2026-04-11 13:18:21    [REDACTION READY]  'a ron List' (PERSON) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for 'Glas (Sel oD ltitz eat ith)' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for 'Glas (Sel oD ltitz eat ith)'
+2026-04-11 13:18:21    [REDACTION READY]  'Glas (Sel oD ltitz eat ith)' (PERSON) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for 'Umma tional' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for 'Umma tional'
+2026-04-11 13:18:21    [REDACTION READY]  'Umma tional' (ORG) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for 'OAS, Ger _ fate Gre tiona' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for 'OAS, Ger _ fate Gre tiona'
+2026-04-11 13:18:21    [REDACTION READY]  'OAS, Ger _ fate Gre tiona' (ORG) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for 'TGenenation' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for 'TGenenation'
+2026-04-11 13:18:21    [REDACTION READY]  'TGenenation' (ORG) --> Ready for redaction
+2026-04-11 13:18:21    [MATCHING]  Looking for 'cuda iT iD cpu i amie' in full_text of length 584
+2026-04-11 13:18:21    [MATCHES]  Found 1 matches for 'cuda iT iD cpu i amie'
+2026-04-11 13:18:21    [REDACTION READY]  'cuda iT iD cpu i amie' (ORG) --> Ready for redaction
+2026-04-11 13:18:21  Calling LLM for page 5 (360 chars)...
+2026-04-11 13:18:37  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "SOURCE code",
+      "tag": "CORPORATE_CONFIDENTIAL",
+      "reason": "This is a trade secret and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "language code",
+      "tag": "CORPORATE_CONFIDENTIAL",
+      "reason": "This is an internal code and not necessary for the stated purpose of online document management and editing platform."
+    },
+    {
+      "text": "confidence (outputs",
+      
+2026-04-11 13:18:37  Primary JSON parse failed — trying regex fallback extraction
+2026-04-11 13:18:37  Fallback extracted 12 object(s)
+2026-04-11 13:18:37  
+2026-04-11 13:18:37  --- Page 5: 12 flagged, 0 skipped ---
+2026-04-11 13:18:37    [FLAGGED]  'SOURCE code' (CORPORATE_CONFIDENTIAL) → This is a trade secret and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'language code' (CORPORATE_CONFIDENTIAL) → This is an internal code and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'confidence (outputs' (CORPORATE_CONFIDENTIAL) → This is a metric related to internal processes and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'tokens is GUEEIES' (CORPORATE_CONFIDENTIAL) → This is a proprietary term and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'py confidence' (CORPORATE_CONFIDENTIAL) → This is a metric related to internal processes and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'anya AG Fi H ) [ii] ms Si) mre' (CORPORATE_CONFIDENTIAL) → This is a proprietary term and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'Oickionany with am ice' (CORPORATE_CONFIDENTIAL) → This is a trade secret and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'fout put (| liam' (CORPORATE_CONFIDENTIAL) → This is a proprietary term and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'Samese Ga' (CORPORATE_CONFIDENTIAL) → This is a proprietary term and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'am Process quaries fim nes' (CORPORATE_CONFIDENTIAL) → This is a trade secret and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'sel tipsy Sar o > im sy GUany OF wos' (CORPORATE_CONFIDENTIAL) → This is a trade secret and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [FLAGGED]  'Go p "lan"' (CORPORATE_CONFIDENTIAL) → This is a proprietary term and not necessary for the stated purpose of online document management and editing platform.
+2026-04-11 13:18:37    [MATCHING]  Looking for 'SOURCE code' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'SOURCE code'
+2026-04-11 13:18:37    [REDACTION READY]  'SOURCE code' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'language code' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'language code'
+2026-04-11 13:18:37    [REDACTION READY]  'language code' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'confidence (outputs' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'confidence (outputs'
+2026-04-11 13:18:37    [REDACTION READY]  'confidence (outputs' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'tokens is GUEEIES' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'tokens is GUEEIES'
+2026-04-11 13:18:37    [REDACTION READY]  'tokens is GUEEIES' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'py confidence' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'py confidence'
+2026-04-11 13:18:37    [REDACTION READY]  'py confidence' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'anya AG Fi H ) [ii] ms Si) mre' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'anya AG Fi H ) [ii] ms Si) mre'
+2026-04-11 13:18:37    [REDACTION READY]  'anya AG Fi H ) [ii] ms Si) mre' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'Oickionany with am ice' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'Oickionany with am ice'
+2026-04-11 13:18:37    [REDACTION READY]  'Oickionany with am ice' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'fout put (| liam' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'fout put (| liam'
+2026-04-11 13:18:37    [REDACTION READY]  'fout put (| liam' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'Samese Ga' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'Samese Ga'
+2026-04-11 13:18:37    [REDACTION READY]  'Samese Ga' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'am Process quaries fim nes' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'am Process quaries fim nes'
+2026-04-11 13:18:37    [REDACTION READY]  'am Process quaries fim nes' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'sel tipsy Sar o > im sy GUany OF wos' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'sel tipsy Sar o > im sy GUany OF wos'
+2026-04-11 13:18:37    [REDACTION READY]  'sel tipsy Sar o > im sy GUany OF wos' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37    [MATCHING]  Looking for 'Go p "lan"' in full_text of length 360
+2026-04-11 13:18:37    [MATCHES]  Found 1 matches for 'Go p "lan"'
+2026-04-11 13:18:37    [REDACTION READY]  'Go p "lan"' (CORPORATE_CONFIDENTIAL) --> Ready for redaction
+2026-04-11 13:18:37  Calling LLM for page 6 (1415 chars)...
+2026-04-11 13:18:53  LLM raw response (first 500 chars): [
+  "flagged": [
+    {
+      "text": "Rs.29-45",
+      "tag": "MONEY",
+      "reason": "Financial amount, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "Rs.15",
+      "tag": "MONEY",
+      "reason": "Financial amount, not necessary for stated purpose of online document management and editing platform"
+    },
+    {
+      "text": "Rs.1.50",
+      "tag": "MONEY",
+      "reason": "Financial amount, not necessary for stated purpose of 
+2026-04-11 13:18:53  
+2026-04-11 13:18:53  --- Page 6: 18 flagged, 20 skipped ---
+2026-04-11 13:18:53    [FLAGGED]  'Rs.29-45' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'Rs.15' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'Rs.1.50' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '5-8%' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '2-' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '30 days' (GPE) → Time period, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '10 days' (GPE) → Time period, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '3 150 25 83' (SENSITIVE) → Unnecessary code, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '40 & CH' (SENSITIVE) → Unnecessary code, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'lex ‘GEES p Cr ures OUTPUT SCREENSHOTS Gh (3 10600 0 Ht Mode) Eau) BY stilts 40 Used]' (SENSITIVE) → Unnecessary code, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  '48) every, 7 days confirmatio' (SENSITIVE) → Unnecessary code, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'Generel ee 2 RETURNS Paste document, products days SELLER TERMS OF SERVICES 30 days for Fashion = General' (SENSITIVE) → Unnecessary code, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'ipkart charges a commission ranging from 29 to 25%' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'bear the retum shipping cost if the commission' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'BOOKS, is def have the lowest commission at 2-' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'ust process wi nd using Flipka rt will be charged Rs.29-45 per' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'for items 500g within the same zone, Interstate.' (GPE) → Geopolitical location, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [FLAGGED]  'shipments attract an additional Rs.15 surcharg e, Sellers may opt listing placement requires per-click bid starting at Rs:1.50 per cli' (MONEY) → Financial amount, not necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'LIC' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Sf Language / rN Tamil het ail = HY CH ett Gls 200' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Chat Mode) (3 150 25 83)' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Models Used) ' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Summary Results Payments are settled MG every after successful delivery)' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'frocus Area]' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'come POLICY Customers can retum / Products within}10 days for Electronics and SELLER TERMS SERVICES 30 days for Fashion.' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'General retum shipping attract 5-8% . commission while Fashion items are charged Books eturn reason is product defe ‘and Media have the lowest commission must process refunds within 5 Sellers using Ekart will be charged pey business da shipment under 500g within the same zone.' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Interstate listing placement requires cost: 2 } lex ‘GEES p Cr ures OUTPUT SCREENSHOTS Gh (3 10600 0 Ht Mode) Eau) BY stilts 40 Used]' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Eau) BY stilts 40 Used]' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Abstractive (BART Encoder rewrites in own!' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  '[Summary Results)' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'every, 7 days confirmatio' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'Generel ee 2 RETURNS Paste document, products days SELLER TERMS OF SERVICES 30 days for Fashion = General' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'ipkart charges a commission ranging from 29 to 25%' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'bear the retum shipping cost if the commission' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'BOOKS, is def have the lowest commission at 2-' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'ust process wi nd using Flipka rt will be charged Rs.29-45 per' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'for items 500g within the same zone, Interstate.' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [SKIPPED]  'shipments attract an additional Rs.15 surcharg e, Sellers may opt listing placement requires per-click bid starting at Rs:1.50 per cli' → Looks like a sensitive ID, but necessary for stated purpose of online document management and editing platform
+2026-04-11 13:18:53    [MATCHING]  Looking for 'Rs.29-45' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'Rs.29-45'
+2026-04-11 13:18:53    [REDACTION READY]  'Rs.29-45' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'Rs.15' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'Rs.15'
+2026-04-11 13:18:53    [REDACTION READY]  'Rs.15' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'Rs.1.50' in full_text of length 1415
+2026-04-11 13:18:53    [FUZZY]  Exact match failed, trying fuzzy matching
+2026-04-11 13:18:53    [MATCHES]  Found 0 matches for 'Rs.1.50'
+2026-04-11 13:18:53    [FAILED]  No text matches found for 'Rs.1.50' - entity creation skipped
+2026-04-11 13:18:53    [MATCHING]  Looking for '5-8%' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for '5-8%'
+2026-04-11 13:18:53    [REDACTION READY]  '5-8%' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for '2-' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for '2-'
+2026-04-11 13:18:53    [REDACTION READY]  '2-' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for '30 days' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 2 matches for '30 days'
+2026-04-11 13:18:53    [REDACTION READY]  '30 days' (GPE) --> Ready for redaction
+2026-04-11 13:18:53    [REDACTION READY]  '30 days' (GPE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for '10 days' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for '10 days'
+2026-04-11 13:18:53    [REDACTION READY]  '10 days' (GPE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for '3 150 25 83' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for '3 150 25 83'
+2026-04-11 13:18:53    [REDACTION READY]  '3 150 25 83' (SENSITIVE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for '40 & CH' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for '40 & CH'
+2026-04-11 13:18:53    [REDACTION READY]  '40 & CH' (SENSITIVE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'lex ‘GEES p Cr ures OUTPUT SCREENSHOTS Gh (3 10600 0 Ht Mode) Eau) BY stilts 40 Used]' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'lex ‘GEES p Cr ures OUTPUT SCREENSHOTS Gh (3 10600 0 Ht Mode) Eau) BY stilts 40 Used]'
+2026-04-11 13:18:53    [REDACTION READY]  'lex ‘GEES p Cr ures OUTPUT SCREENSHOTS Gh (3 10600 0 Ht Mode) Eau) BY stilts 40 Used]' (SENSITIVE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for '48) every, 7 days confirmatio' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for '48) every, 7 days confirmatio'
+2026-04-11 13:18:53    [REDACTION READY]  '48) every, 7 days confirmatio' (SENSITIVE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'Generel ee 2 RETURNS Paste document, products days SELLER TERMS OF SERVICES 30 days for Fashion = General' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'Generel ee 2 RETURNS Paste document, products days SELLER TERMS OF SERVICES 30 days for Fashion = General'
+2026-04-11 13:18:53    [REDACTION READY]  'Generel ee 2 RETURNS Paste document, products days SELLER TERMS OF SERVICES 30 days for Fashion = General' (SENSITIVE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'ipkart charges a commission ranging from 29 to 25%' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'ipkart charges a commission ranging from 29 to 25%'
+2026-04-11 13:18:53    [REDACTION READY]  'ipkart charges a commission ranging from 29 to 25%' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'bear the retum shipping cost if the commission' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'bear the retum shipping cost if the commission'
+2026-04-11 13:18:53    [REDACTION READY]  'bear the retum shipping cost if the commission' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'BOOKS, is def have the lowest commission at 2-' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'BOOKS, is def have the lowest commission at 2-'
+2026-04-11 13:18:53    [REDACTION READY]  'BOOKS, is def have the lowest commission at 2-' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'ust process wi nd using Flipka rt will be charged Rs.29-45 per' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'ust process wi nd using Flipka rt will be charged Rs.29-45 per'
+2026-04-11 13:18:53    [REDACTION READY]  'ust process wi nd using Flipka rt will be charged Rs.29-45 per' (MONEY) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'for items 500g within the same zone, Interstate.' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'for items 500g within the same zone, Interstate.'
+2026-04-11 13:18:53    [REDACTION READY]  'for items 500g within the same zone, Interstate.' (GPE) --> Ready for redaction
+2026-04-11 13:18:53    [MATCHING]  Looking for 'shipments attract an additional Rs.15 surcharg e, Sellers may opt listing placement requires per-click bid starting at Rs:1.50 per cli' in full_text of length 1415
+2026-04-11 13:18:53    [MATCHES]  Found 1 matches for 'shipments attract an additional Rs.15 surcharg e, Sellers may opt listing placement requires per-click bid starting at Rs:1.50 per cli'
+2026-04-11 13:18:53    [REDACTION READY]  'shipments attract an additional Rs.15 surcharg e, Sellers may opt listing placement requires per-click bid starting at Rs:1.50 per cli' (MONEY) --> Ready for redaction

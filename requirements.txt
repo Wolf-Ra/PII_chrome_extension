@@ -1,0 +1,17 @@
+# ── PDF handling ────────────────────────────────────────────────────────────
+PyMuPDF>=1.23.0          # primary PDF rasteriser (fitz)
+pdf2image>=1.16.3        # fallback PDF rasteriser (requires poppler-utils)
+fpdf2>=2.7.6             # PDF export of redacted pages
+
+# ── Image processing ────────────────────────────────────────────────────────
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# ── OCR backends (install at least one) ─────────────────────────────────────
+pytesseract>=0.3.10      # tesseract wrapper (also: apt install tesseract-ocr)
+easyocr>=1.7.1           # optional — better for mixed/noisy scans
+paddleocr>=2.7.0         # optional — best accuracy, heaviest dependency
+paddlepaddle>=2.6.0      # required if using paddleocr
+
+# ── LLM / NER ───────────────────────────────────────────────────────────────
+groq>=0.5.0
